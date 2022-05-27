@@ -1,5 +1,6 @@
 # SpecinfraTermux
 
+[![Gem Version](https://badge.fury.io/rb/specinfra_termux.svg)](https://badge.fury.io/rb/specinfra_termux)
 [![Maintainability](https://api.codeclimate.com/v1/badges/de9a6c9b2d414dd249c9/maintainability)](https://codeclimate.com/github/dvinciguerra/specinfra_termux/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/de9a6c9b2d414dd249c9/test_coverage)](https://codeclimate.com/github/dvinciguerra/specinfra_termux/test_coverage)
 
