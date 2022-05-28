@@ -7,8 +7,17 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    ansi (1.5.0)
     ast (2.4.2)
+    builder (3.2.4)
     minitest (5.15.0)
+    minitest-colorize (0.0.5)
+      minitest (>= 2.0)
+    minitest-reporters (1.5.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
     net-scp (3.0.0)
       net-ssh (>= 2.6.5, < 7.0.0)
     net-ssh (6.1.0)
@@ -31,6 +40,11 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.18.0)
       parser (>= 3.1.1.0)
+    rubocop-minitest (0.19.1)
+      rubocop (>= 0.90, < 2.0)
+    rubocop-performance (1.14.0)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.11.0)
     sfl (2.3)
     specinfra (2.83.2)
@@ -45,8 +59,12 @@ PLATFORMS
 
 DEPENDENCIES
   minitest (~> 5.0)
+  minitest-colorize
+  minitest-reporters (~> 1.5)
   rake (~> 13.0)
   rubocop (~> 1.21)
+  rubocop-minitest (~> 0.19.1)
+  rubocop-performance
   specinfra_termux!
 
 BUNDLED WITH
